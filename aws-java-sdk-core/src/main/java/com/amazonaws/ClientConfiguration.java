@@ -785,7 +785,7 @@ public class ClientConfiguration {
      */
     public void setMaxErrorRetry(int maxErrorRetry) {
         if (maxErrorRetry < 0) {
-            throw new IllegalArgumentException("maxErrorRetry shoud be non-negative");
+            throw new IllegalArgumentException("maxErrorRetry should be non-negative");
         }
         this.maxErrorRetry = maxErrorRetry;
     }
